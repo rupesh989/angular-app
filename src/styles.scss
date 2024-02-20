@@ -27,3 +27,48 @@ app-root {
   display: flex;
   flex-direction: row;
 }
+
+.coloum {
+  display: flex;
+  flex-direction: column;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-15 {
+  margin-bottom: 15px;
+}
+.mt-25 {
+  margin-bottom: 25px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.full-center {
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
